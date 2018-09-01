@@ -3,7 +3,7 @@ class Dog
     @name = name
     @breed = breed
   end
-
+  
   def name= (name)
     @name = name
   end
@@ -17,7 +17,8 @@ class Dog
   def breed(breed)
     @breed
   end
-
-
+  
+  
 
 end
+fido = Dog.new("Fido", "Pugg")
